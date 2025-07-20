@@ -62,7 +62,7 @@ img {
 	border-radius: 20px;
 	color: white;
 	font-size: 30px;
-	padding: 20px 50px;
+	padding: 20px;
 	/* margin on flexbox items to show separation */
 	margin: 10px;
 }
@@ -73,14 +73,26 @@ img {
 	width: 400px;
 }
 
+#container-1 div {
+	padding: 20px 50px;
+}
+
 #container-2 {
 	/* displays items horizontally right to left */
 	flex-direction: row-reverse;
 	flex-wrap: wrap;
 }
 
+#container-2 div {
+	flex: 1 1 0; /* Make each item flexible and responsive */
+}
+
 #container-3 {
 	/* displays items vertically top to bottom */
 	flex-direction: column;
 	align-items: center;
+}
+
+#container-3 div {
+	width: 50%;
 }
