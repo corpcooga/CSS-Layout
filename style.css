@@ -23,6 +23,13 @@ p {
 	line-height: 1.6;
 }
 
+img {
+	border: 3px solid darkblue;
+	border-radius: 10px;
+	/* add a shadow to the image */
+	box-shadow: 5px 5px 10px;
+}
+
 /* the text wraps around the bottom of the image */
 #float-right {
 	float: right;
