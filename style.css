@@ -72,3 +72,15 @@ img {
 	justify-content: space-around;
 	width: 400px;
 }
+
+#container-2 {
+	/* displays items horizontally right to left */
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+}
+
+#container-3 {
+	/* displays items vertically top to bottom */
+	flex-direction: column;
+	align-items: center;
+}
