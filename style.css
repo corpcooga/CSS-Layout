@@ -1,3 +1,22 @@
+body {
+	background-color: lightblue;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	color: darkblue;
+	margin-bottom: 30px;
+}
+
+h2 {
+	text-align: center;
+	color: darkred;
+	background: lightgoldenrodyellow;
+	padding: 10px;
+	border-bottom: 2px solid darkorange;
+}
+
 .flex-container {
 	display: flex;
 	flex-wrap: wrap;
